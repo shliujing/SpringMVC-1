@@ -1,6 +1,6 @@
-package com.cenyol.example.repository;
+package me.ele.activity.repository;
 
-import com.cenyol.example.model.UserEntity;
+import me.ele.activity.model.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

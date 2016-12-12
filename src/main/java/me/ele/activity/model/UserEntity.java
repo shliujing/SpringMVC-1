@@ -1,4 +1,4 @@
-package com.cenyol.example.model;
+package me.ele.activity.model;
 
 import javax.persistence.*;
 import java.util.Collection;

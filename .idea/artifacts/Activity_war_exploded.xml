@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="demo:war exploded">
-    <output-path>$PROJECT_DIR$/target/example-1.0-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="Activity:war exploded">
+    <output-path>$PROJECT_DIR$/target/activity-1.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -42,7 +42,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="C:\SpringMVC-1\target/MANIFEST.MF" />
+        <element id="file-copy" path="C:\Activity\target/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Activity/web/Web" />
     </root>

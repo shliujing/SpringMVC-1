@@ -1,8 +1,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
-  User: sjj
-  Date: 2015/10/24 0024
+  User: lj
+  Date: 2016/12/13 0024
   Time: 20:36
   To change this template use File | Settings | File Templates.
 --%>
@@ -14,7 +14,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-  <title>SpringMVC Demo 首页</title>
+  <title>Demo 首页</title>
 
   <!-- 新 Bootstrap 核心 CSS 文件 -->
   <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
 </head>
 <body>
 <div class="container">
-  <h1>SpringMVC 更新用户信息</h1>
+  <h1>更新用户信息</h1>
   <hr/>
 
   <form:form action="/updateUserPost" method="post" commandName="userP" role="form">

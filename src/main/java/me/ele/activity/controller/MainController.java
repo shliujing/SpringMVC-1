@@ -1,7 +1,7 @@
-package com.cenyol.example.controller;
+package me.ele.activity.controller;
 
-import com.cenyol.example.model.UserEntity;
-import com.cenyol.example.repository.UserRepository;
+import me.ele.activity.model.UserEntity;
+import me.ele.activity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

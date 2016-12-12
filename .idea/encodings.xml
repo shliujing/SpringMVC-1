@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/src/main/java/com/cenyol/example/controller/MainController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/cenyol/example/model/BlogEntity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/cenyol/example/model/UserEntity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/cenyol/example/repository/UserRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/me/ele/activity/controller/MainController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/me/ele/activity/model/BlogEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/me/ele/activity/model/UserEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/me/ele/activity/repository/UserRepository.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
