@@ -3,7 +3,7 @@ package com.cenyol.example.model;
 import javax.persistence.*;
 
 /**
- * Created by sjj on 2015/10/24 0024.
+ * Created by lj on 2016/12/13 0024.
  */
 @Entity
 @Table(name = "blog", schema = "", catalog = "test")

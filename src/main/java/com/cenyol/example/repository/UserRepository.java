@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * Created by sjj on 2015/10/24 0024.
+ * Created by lj on 2016/12/13 0024.
  */
 @Repository // 添加注解
 public interface UserRepository extends JpaRepository<UserEntity, Integer> {
