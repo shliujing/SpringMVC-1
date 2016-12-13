@@ -16,17 +16,17 @@ import java.util.List;
  * Created by lj on 2016/12/13 0024.
  */
 @Controller
-public class MainController {
+public class UserController {
 
     // 自动装配
     @Autowired
     private UserRepository userRepository;
 
     // 首页
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+   /* @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        return "index";
-    }
+        return "user/index";
+    }*/
 
     // 用户管理
     @RequestMapping(value = "/users", method = RequestMethod.GET)
@@ -38,13 +38,13 @@ public class MainController {
         modelMap.addAttribute("userList", userEntityList);
 
         // 返回pages目录下的userManage.jsp
-        return "userManage";
+        return "user/userManage";
     }
 
     // 添加用户表单页面
     @RequestMapping(value = "/addUser", method = RequestMethod.GET)
     public String addUser(){
-        return "addUser";
+        return "user/addUser";
     }
 
     // 添加用户处理
@@ -67,7 +67,7 @@ public class MainController {
     public String showUser( @PathVariable("userId") Integer userId, ModelMap modelMap ){
         UserEntity userEntity = userRepository.findOne(userId);
         modelMap.addAttribute("user", userEntity);
-        return "userDetail";
+        return "user/userDetail";
     }
 
     // 更新用户信息页面
@@ -75,7 +75,7 @@ public class MainController {
     public String updateUser(@PathVariable("userId") Integer userId, ModelMap modelMap){
         UserEntity userEntity = userRepository.findOne(userId);
         modelMap.addAttribute("user", userEntity);
-        return "updateUser";
+        return "user/updateUser";
     }
     // 处理用户修改请求
     @RequestMapping(value = "/updateUserPost", method = RequestMethod.POST)
