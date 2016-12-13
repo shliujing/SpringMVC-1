@@ -35,16 +35,20 @@
       <td>${activity.id}</td>
     </tr>
     <tr>
-      <th>First Name</th>
-      <td>${activity.firstName}</td>
+      <th>部门</th>
+      <td>${activity.department}</td>
     </tr>
     <tr>
-      <th>Last Name</th>
-      <td>${activity.lastName}</td>
+      <th>活动名称</th>
+      <td>${activity.name}</td>
     </tr>
     <tr>
-      <th>Password</th>
-      <td>${activity.password}</td>
+      <th>时间</th>
+      <td>${activity.date}</td>
+    </tr>
+    <tr>
+      <th>开销</th>
+      <td>${activity.spend}</td>
     </tr>
   </table>
 </div>
