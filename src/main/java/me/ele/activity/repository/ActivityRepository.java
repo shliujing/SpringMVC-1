@@ -23,4 +23,5 @@ public interface ActivityRepository extends JpaRepository<ActivityEntity, Intege
                            @Param("qSpend") String spend,
                            @Param("qDepartment") String department,
                            @Param("qId") Integer id);
+//    @SQLInsert("")
 }

@@ -51,10 +51,10 @@ public class ActivityController {
     @RequestMapping(value = "/addActivityPost", method = RequestMethod.POST)
     public String addActivityPost(@ModelAttribute("activity") ActivityEntity activityEntity){
         // 向数据库添加一个活动
-        activityRepository.save(activityEntity);
+//        activityRepository.save(activityEntity);
 
         // 向数据库添加一个活动，并将内存中缓存区的数据刷新，立即写入数据库，之后才可以进行访问读取
-//        activityRepository.saveAndFlush(activityEntity);
+        activityRepository.saveAndFlush(activityEntity);
 
         // 返回重定向页面
         return "redirect:/activitys";

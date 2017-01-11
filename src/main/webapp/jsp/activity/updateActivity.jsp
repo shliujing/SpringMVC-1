@@ -32,21 +32,24 @@
 
   <form:form action="/updateActivityPost" method="post" commandName="activityP" role="form">
     <div class="form-group">
-      <label for="firstName">First Name:</label>
-      <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter FirstName:"
-             value="${activity.firstName}"/>
+        <label for="department">部门:</label>
+        <input type="text" class="form-control" id="department" name="department" placeholder="输入部门"
+               value="${activity.department}"/>
     </div>
     <div class="form-group">
-      <label for="lastName">Last Name:</label>
-      <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter LastName:"
-             value="${activity.lastName}"/>
+        <label for="name">负责人：</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="输入负责人" value="${activity.name}"/>
     </div>
     <div class="form-group">
-      <label for="password">Password:</label>
-      <input type="text" class="form-control" id="password" name="password" placeholder="Enter Password:"
-             value="${activity.password}"/>
+        <label for="date">时间：</label>
+        <input type="text" class="form-control" id="date" name="date" placeholder="输入时间" value="${activity.date}"/>
     </div>
-    <!-- 把 id 一并写入 activityP 中 -->
+      <div class="form-group">
+          <label for="spend">开销：</label>
+          <input type="text" class="form-control" id="spend" name="spend" placeholder="输入开销" value="${activity.spend}"/>
+      </div>
+
+      <!-- 把 id 一并写入 activityP 中 -->
     <input type="hidden" id="id" name="id" value="${activity.id}"/>
 
     <div class="form-group">

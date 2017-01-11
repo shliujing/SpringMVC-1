@@ -34,13 +34,13 @@
     <h1>活动管理</h1>
     <hr/>
 
-    <h3>所有活动 <a href="/addActivity" type="button" class="btn btn-default btn-sm">添加</a></h3>
+    <h3>所有活动 <a href="/addActivity" type="button" class="btn btn btn-primary btn-sm">添加</a></h3>
 
     <!-- 如果活动列表为空 -->
     <c:if test="${empty activityList}">
         <p class="bg-warning">
             <br/>
-            Activity表为空，请<a href="/addActivity" type="button" class="btn btn-default btn-sm">添加</a>
+            Activity表为空，请<a href="/addActivity" type="button" class="btn btn btn-primary btn-sm">添加</a>
             <br/>
             <br/>
         </p>

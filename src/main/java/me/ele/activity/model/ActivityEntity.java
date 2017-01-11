@@ -1,5 +1,7 @@
 package me.ele.activity.model;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -16,6 +18,8 @@ public class ActivityEntity {
     private String spend;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GenericGenerator(name = "persistenceGenerator", strategy = "increment")
     @Column(name = "id", nullable = false, insertable = true, updatable = true)
     public int getId() {
         return id;

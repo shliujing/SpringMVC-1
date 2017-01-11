@@ -51,6 +51,8 @@
       <td>${activity.spend}</td>
     </tr>
   </table>
+
+    <input type="button" value="返回" class="btn btn-default" onclick="history.back(-1);">
 </div>
 
 
