@@ -1,4 +1,4 @@
-### SpringMVC的学习例子，使用Intellij进行的，spring，hibernate，mysql
+## SpringMVC的学习例子，使用Intellij进行的，spring，hibernate，mysql
 
 - 本项目只是一个简单的例子，包含了一个只有两张表的数据库；
 - 一直controller，里面仅有增删改查等操作而已；
@@ -6,7 +6,13 @@
 - 具体的请clone项目，使用idea直接打开查看即可；
 - SpringMVC+Hibernate,不需要创建表
 
-# Demo截图
+## Change Log
+
+### 1.16
+1. Add iBatis demo
+
+
+## Demo截图
 
 ![](https://raw.githubusercontent.com/Cenyol/SpringMVC/master/images/list.jpg)
 ![](https://raw.githubusercontent.com/Cenyol/SpringMVC/master/images/add.jpg)
