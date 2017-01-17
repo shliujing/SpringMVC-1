@@ -5,6 +5,7 @@
     <!-- mybatis别名定义 -->
     <typeAliases>
         <typeAlias alias="User" type="com.mybatis.test.User"/>
+        <typeAlias alias="Article" type="com.mybatis.test.Article"/>
     </typeAliases>
 
     <environments default="development">

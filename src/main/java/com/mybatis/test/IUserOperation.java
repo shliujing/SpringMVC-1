@@ -7,7 +7,9 @@ public interface IUserOperation {
 	public User selectUserByID(int id);
 	
 	public List<User> selectUsersByName(String userName);
-	
+
+	public List<Article> getUserArticles(int id);
+
 	public void addUser(User user);
 	
 	public void updateUser(User user);

@@ -114,6 +114,27 @@ public class Test {
 		}
 	}
 
+	/**
+	 * 最后获取的还是单个Article
+	 *
+	 * @param userid
+	 */
+	public void getUserArticles(int userid) {
+		SqlSession session = sqlSessionFactory.openSession();
+		try {
+			IUserOperation userOperation = session.getMapper(IUserOperation.class);
+			List<Article> articles = userOperation.getUserArticles(userid);
+			for (Article article : articles) {
+				System.out.println(article.getTitle() + ":" + article.getContent() +
+						":作者是:" + article.getUser().getUserName() + ":地址:" +
+						article.getUser().getUserAddress());
+			}
+		} finally {
+			session.close();
+		}
+	}
+
+
 	public static void main(String[] args) {
 		try {
 			Test test = new Test();
@@ -122,6 +143,7 @@ public class Test {
 			 test.addUser();
 			 test.updateUser();
 			 test.deleteUser(6);
+			test.getUserArticles(1);
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());

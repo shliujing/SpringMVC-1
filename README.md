@@ -10,6 +10,7 @@
 
 ### 1.16
 1. Add iBatis demo
+- src/main/java/com/mybatis/test, 单表和关联查询例子。重点是返回回来的类型是Arcticle,所以需要写一堆乱七八糟的东西。思想是多对1,取出来的是多,关联的是1
 
 
 ## Demo截图
